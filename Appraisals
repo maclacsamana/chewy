@@ -10,7 +10,6 @@
     gem 'sidekiq', require: false
 
     gem 'kaminari', '~> 0.17.0', require: false
-    gem 'will_paginate', require: false
 
     gem 'parallel', require: false
   end
@@ -28,7 +27,6 @@ end
     gem 'sidekiq', require: false
 
     gem 'kaminari-core', '~> 1.1.0', require: false
-    gem 'will_paginate', require: false
 
     gem 'parallel', require: false
   end
@@ -45,7 +43,6 @@ appraise 'rails.5.2.activerecord' do
   gem 'sidekiq', require: false
 
   gem 'kaminari-core', '~> 1.1.0', require: false
-  gem 'will_paginate', require: false
 
   gem 'parallel', require: false
 end
@@ -61,7 +58,6 @@ appraise 'rails.4.2.mongoid.5.2' do
   gem 'sidekiq', require: false
 
   gem 'kaminari', '~> 0.17.0', require: false
-  gem 'will_paginate', require: false
 
   gem 'parallel', require: false
 end
@@ -78,7 +74,6 @@ end
     gem 'sidekiq', require: false
 
     gem 'kaminari-core', '~> 1.1.0', require: false
-    gem 'will_paginate', require: false
 
     gem 'parallel', require: false
   end
@@ -90,7 +85,6 @@ end
     gem 'activesupport', '~> 5.1.0'
 
     gem 'kaminari-core', '~> 1.1.0', require: false
-    gem 'will_paginate', require: false
 
     gem 'parallel', require: false
   end
